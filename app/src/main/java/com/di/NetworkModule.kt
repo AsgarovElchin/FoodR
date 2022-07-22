@@ -1,7 +1,7 @@
 package com.di
 
-import com.Constants
-import com.FoodRecipesApi
+import com.util.Constants
+import com.data.network.FoodRecipesApi
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
