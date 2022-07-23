@@ -1,4 +1,4 @@
-package com
+package com.viewmodels
 
 import android.app.Application
 import android.content.Context
@@ -34,7 +34,7 @@ class MainViewModel @Inject constructor(
                 val response = repository.remote.getRecipes(queries)
                 recipesResponse.value = handleFoodRecipesResponse(response)
             } catch (e: Exception) {
-recipesResponse.value = NetworkResult.Error("Recipes not found")
+                recipesResponse.value = NetworkResult.Error("Recipes not found")
             }
 
         } else {
@@ -77,4 +77,5 @@ recipesResponse.value = NetworkResult.Error("Recipes not found")
             else -> false
         }
     }
+
 }

@@ -66,9 +66,7 @@ dependencies {
     implementation "androidx.room:room-ktx:2.2.5"
     androidTestImplementation "androidx.room:room-testing:2.2.5"
 
-    // Data binding
-    kapt "com.android.databinding:compiler:3.2.0-alpha10"
-    kapt "androidx.databinding:databinding-common:7.2.1"
+
 
     // DataStore
     implementation "androidx.datastore:datastore-preferences:1.0.0-alpha01"
